@@ -3,6 +3,7 @@ import './App.css'
 import Home from './Components/Home'
 import HostSpace from './Components/HostSpace'
 import CreateWorkspace from './Components/CreateWorkspace'
+import JoinWorkspace from './Components/JoinWorkspace'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Route path="/" element={<Home />} />
       <Route path="/host" element={<HostSpace />} />
       <Route path="/create" element={<CreateWorkspace />} />
+      <Route path="/join" element={<JoinWorkspace />} />
     </Routes>
   )
 }

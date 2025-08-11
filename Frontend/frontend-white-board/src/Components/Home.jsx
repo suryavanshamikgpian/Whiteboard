@@ -11,11 +11,11 @@ export default function Home() {
                 </header>
 
                 <div className="wb-cta">
-                    <button className="wb-btn wb-btn-primary" onClick={() => navigate('/host')}>
-                        Host a space
+                    <button className="wb-btn wb-btn-primary" onClick={() => navigate('/create')}>
+                        Host & create workspace
                     </button>
-                    <button className="wb-btn wb-btn-secondary" onClick={() => navigate('/create')}>
-                        Create a workspace
+                    <button className="wb-btn wb-btn-secondary" onClick={() => navigate('/join')}>
+                        Join existing workspace
                     </button>
                 </div>
 

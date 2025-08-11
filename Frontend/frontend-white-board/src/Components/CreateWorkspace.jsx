@@ -13,7 +13,7 @@ export default function CreateWorkspace() {
                         <input type="text" placeholder="e.g. Sprint Planning" required />
                     </label>
                     <label>
-                        Your name (optional)
+                        Your name
                         <input type="text" placeholder="Your name" />
                     </label>
                     <button className="wb-btn wb-btn-primary" type="submit">Create workspace</button>
